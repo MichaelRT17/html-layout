@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+header {
+    background-color: lightgray;
+    height: 12%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+header > div {
+    background-color: #4990E2;
+    height: 68px;
+    width: 68px;
+}
+
+article {
+    height: 28%;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    line-height: 21px;
+}
+
+main {
+    height: 60%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+main > div {
+    height: 25%;
+}
+
+.blue-box {
+    background-color: #4990E2;
+}
+
+.teal-box {
+    background-color: #4FE3C1;
+}
+
+.green-box {
+    background-color: #B9E888;
+}
+
+.yellow-box {
+    background-color: #F8E71E;
+}
